@@ -4,10 +4,9 @@ import shutil
 import time
 import glob
 
-Destination = ("C:/Users/Thomas/Desktop/CV Upload/CV-NewLocation/")
-Doc_File = ("C:/Users/Thomas/Desktop/CV Upload/")
-# Root_Path = input('') #Specify the root path (C:, D:, E:, etc, etc)
-Root_Path = ('C:') #For the time of testing
+Destination = ("destination")
+Doc_File = ("Please_where_doc_file")
+Root_Path = input('') #Specify the root path (C:, D:, E:, etc, etc)
 s3 = boto3.resource('s3')
 Client = boto3.client('s3')
 
@@ -73,8 +72,8 @@ if __name__ == "__main__":
 
 
     if New_File:
-        s3.Bucket('duobucketforsharingproject').upload_file(Filename=Destination + New_File, Key=New_File)
-        List_Folder_And_Files("duobucketforsharingproject")
+        s3.Bucket('bucket_name').upload_file(Filename=Destination + New_File, Key=New_File)
+        List_Folder_And_Files("bucket_name")
 
     else:
         print("No files to upload to S3 bucket.")
