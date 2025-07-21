@@ -31,10 +31,10 @@ def Copy_Paste_CV(Doc_File_Location, Root_Path):
         print("Something has went wrong somewhere")
 
 
-def upload_file_to_s3(bucket):
-    # Placeholder for S3 upload logic
-    # This function should handle the upload of the file to the specified S3 bucket.
-    s3.upload_file(Destination + "*.docx")
+# def upload_file_to_s3(bucket):
+#     # Placeholder for S3 upload logic
+#     # This function should handle the upload of the file to the specified S3 bucket.
+#     s3.upload_file(Destination + "*.docx")
 
 
 def List_Folder_And_Files(bucket_name):
