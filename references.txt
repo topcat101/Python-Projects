@@ -1,0 +1,9 @@
+Reference
+    https://boto3.amazonaws.com/v1/documentation/api/latest/index.html
+    https://www.w3schools.com/python/
+    https://docs.python.org/3/library/os.html
+    https://docs.python.org/3/library/glob.html
+    https://docs.python.org/3/library/shutil.html
+    Chatgpt & VScode Copilot - For the most part, this is all my code, but I did use ChatGPT & VScode Copilot to help me with some of the logic and structure.
+    https://medium.com/@adheremo65/what-is-the-main-block-in-python-if-name-main-d9f7410ef2f2
+    
