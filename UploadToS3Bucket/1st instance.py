@@ -5,7 +5,7 @@ import time
 import glob
 
 Destination = ("destination")
-Doc_File = ("Please_where_doc_file")
+Doc_File = ("Place_where_doc_file")
 Root_Path = input('') #Specify the root path (C:, D:, E:, etc, etc)
 s3 = boto3.resource('s3')
 Client = boto3.client('s3')
